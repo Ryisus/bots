@@ -1,0 +1,4 @@
+Tiempo local completo 
+2022-05-31 12:19:04.640675
+Tiempo local procesado
+[12, 19, 4]

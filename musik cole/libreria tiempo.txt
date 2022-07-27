@@ -1,0 +1,53 @@
+
+from datetime import time
+
+# time(hour = 0, minute = 0, second = 0)
+a = time()
+print("a =", a)
+
+# time(hour, minute and second)
+b = time(11, 34, 56)
+print("b =", b)
+
+# time(hour, minute and second)
+c = time(hour = 11, minute = 34, second = 56)
+print("c =", c)
+
+# time(hour, minute, second, microsecond)
+d = time(11, 34, 56, 234566)
+print("d =", d)
+
+if b==c:
+    print("hola")
+
+
+
+#toma la hora para separarlo segun año mes dia hora minuto segundo
+
+from datetime import datetime #para trabajar con horas locales
+import pytz #para trabajar con otras hora del mundo
+#toma la hora local y la muestra
+local = datetime.now() #zona horaria local
+print("Local:", local.strftime("%m/%d/%Y, %H:%M:%S"))
+
+#toma la zona horaria america y la muestra
+tz_NY = pytz.timezone('America/New_York') 
+datetime_NY = datetime.now(tz_NY)
+print("NY:", datetime_NY.strftime("%m/%d/%Y, %H:%M:%S"))
+#toma la zona horaria america y la muestra
+tz_London = pytz.timezone('Europe/London')
+datetime_London = datetime.now(tz_London)
+print("London:", datetime_London.strftime("%m/%d/%Y, %H:%M:%S"))
+
+
+horarios
+ejempo	nombre de lisa = [hora,minutos,segundo]
+desayuno 8.10 / 8.20
+desayuno1=[8, 10, 00]
+desayuno2=[8, 20, 00]
+
+
+recreo1 10.20 /10.30
+almuerzo 11.50 / 12.20
+recreo2 13.40 / 13.50
+merienda 15.10 / 15.20

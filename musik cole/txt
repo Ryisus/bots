@@ -1,0 +1,221 @@
+link de la playlist:5WjbkxOih23pByPlf610E
+
+ #https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlists-tracks  #link del repositorio
+
+
+ tracks': {'href': 'https://api.spotify.com/v1/search?query=Soda+Stereo&type=track&offset=0&limit=10', 'items': [{'album': {'album_type': 'album', 'artists': [{'external_urls':{'spotify': 'https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp'}, 'href': 'https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp', 'id': '7An4yvF7hDYDolN4m5zKBp', 'name': 'Soda Stereo', 'type': 'artist', 'uri': 'spotify:artist:7An4yvF7hDYDolN4m5zKBp'}], 'available_markets': ['AD', 'AE', 'AG', 'AL', 'AM', 'AO', 'AR', 'AT', 'AU', 'AZ', 'BA', 'BB', 'BD', 'BE', 'BF', 'BG', 'BH', 'BI', 'BJ', 'BN', 'BO', 'BR', 'BS', 'BT', 'BW', 'BY', 'BZ', 'CA', 'CD', 'CG', 'CH', 'CI', 'CL', 'CM', 'CO', 'CR', 'CV', 'CW', 'CY', 'CZ', 'DE', 'DJ', 'DK', 'DM', 'DO', 'DZ', 'EC', 'EE', 'EG', 'ES', 'FI', 'FJ', 'FM', 'FR', 'GA', 'GB', 'GD', 'GE', 'GH', 'GM', 'GN', 'GQ', 'GR', 'GT', 'GW', 'GY', 'HK', 'HN', 'HR', 'HT', 'HU', 'ID', 'IE', 'IL', 'IN', 'IQ', 'IS', 'IT', 'JM', 'JO', 'JP', 'KE', 'KG', 'KH', 'KI', 'KM', 'KN', 'KR', 'KW', 'KZ', 'LA', 'LB', 'LC', 'LI', 'LK', 'LR', 'LS', 'LT', 'LU', 'LV', 'LY', 'MA', 'MC', 'MD', 'ME', 'MG', 'MH', 'MK', 'ML', 'MN', 'MO', 'MR', 'MT', 'MU', 'MV', 'MW', 'MX', 'MY', 'MZ', 'NA', 'NE', 'NG', 'NI', 'NL', 'NO', 'NP', 'NR', 'NZ', 'OM', 'PA', 'PE', 'PG', 'PH', 'PK', 'PL', 'PS', 'PT', 'PW', 'PY', 'QA', 'RO', 'RS', 'RW', 'SA', 'SB', 'SC', 'SE', 'SG', 'SI', 'SK', 'SL', 'SM', 'SN', 'SR', 'ST', 'SV', 'SZ', 'TD', 'TG', 'TH', 'TJ', 'TL', 'TN', 'TO', 'TR', 'TT', 'TV', 'TW', 'TZ', 'UA', 'UG', 'US', 'UY', 'UZ', 'VC', 'VE', 'VN', 'VU', 'WS', 'XK', 'ZA', 'ZM', 'ZW'], 'external_urls': {'spotify': 'https://open.spotify.com/album/3GoSlKTNcVOp1ZxE5OOXeN'}, 'href': 'https://api.spotify.com/v1/albums/3GoSlKTNcVOp1ZxE5OOXeN', 'id': '3GoSlKTNcVOp1ZxE5OOXeN', 'images': [{'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c451ed28353639e79b4d97d9', 'width': 640}, {'height': 300, 'url': 'https://i.scdn.co/image/ab67616d00001e02c451ed28353639e79b4d97d9', 'width': 300}, {'height': 64, 'url': 'https://i.scdn.co/image/ab67616d00004851c451ed28353639e79b4d97d9', 'width': 64}], 'name': 'Canción Animal (Remastered)', 'release_date': '1990-10-09', 'release_date_precision': 'day', 'total_tracks': 10, 'type': 'album', 'uri': 'spotify:album:3GoSlKTNcVOp1ZxE5OOXeN'}, 'artists': [{'external_urls': {'spotify': 'https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp'}, 'href': 'https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp', 'id': '7An4yvF7hDYDolN4m5zKBp', 'name': 'Soda Stereo', 'type': 'artist', 'uri': 'spotify:artist:7An4yvF7hDYDolN4m5zKBp'}]
+
+
+
+ #manejo de archivos # no necesarios
+print("si ando <3")
+file=open("txt.txt","w") #esto abre el archivo para escribir
+file.write(str(result))#escribe dentro del archivo la busqueda
+file.close()
+
+file=open("txt.txt", "r") #esto abre el archivo para leer
+cont=file.read()#guarda el contenido
+#print (cont)#imprime contenido de la variable
+file.close()
+#peticion a la api de spotify
+playlist_id="5WjbkxOih23pByPlf610E"
+#curl --request GET \
+#  --url https://api.spotify.com/v1/playlists/playlist_id#/tracks \ #sin el track es get playlist  con el track es solo para un item
+#  --header 'Authorization: ' \
+#  --header 'Content-Type: application/json'
+
+https://open.spotify.com/playlist/12xvmwTXqNMybKm9AIpTgT?si=sIX5Eru3QcinXhEk2xQP-w&utm_source=copy-link&pt=302a1e6e1be9112cb8428237a5916fcb
+
+while True:
+	if hora1>=horap && horap<horaf:#horaf hora final
+		if minuto>=minutop&&minutop<minutof:#minutof minutof inal
+			reproduccion()
+			sleep(600)
+			break
+	else:
+		if 	hora2>=horap && horap<horaf:#horaf hora final
+			if minuto>=minutop&&minutop<minutof:#minutof minutof inal
+				reproduccion()
+				sleep(600)
+				break
+		else:
+			if 	hora3>=horap && horap<horaf:#horaf hora final
+				if minuto>=minutop&&minutop<minutof:#minutof minutof inal
+						reproduccion()
+						sleep(1800)
+						break
+			else:
+				if 	hora4>=horap && horap<horaf:#horaf hora final
+					if minuto>=minutop&&minutop<minutof:#minutof minutof inal
+						reproduccion()
+						sleep(600)
+						break
+				else:
+					if 	hora5>=horap && horap<horaf:#horaf hora final
+						if minuto>=minutop&&minutop<minutof:#minutof minutof inal
+							reproduccion()
+							sleep(600)
+							break
+
+		sleep(0.5)
+
+
+cod funcional"
+from spotipy.oauth2 import SpotifyClientCredentials
+import spotipy, sys, time
+import webbrowser as web
+import pyautogui
+from time import sleep
+from datetime import datetime
+from reproduccion import reproduccion
+from cerrado import *
+from horarios import horarios
+from horarios import *
+#from horarios import hora2
+client_id="2740a67b875f49769c64c03331dc0052" #client de acceso a spotify
+client_secret ="07e69e21ad054c4b9069eaab89e423ea"
+author ="Soda Stereo"
+song = "Soda Stereo".upper()
+
+
+#str minutop
+#str hora1,horap,hora2,hora3,hora4,hora5,minuto1,minuto2,minuto3,minuto4,minuto5,aux,horaf1,horaf2,horaf3,horaf4,horaf5,minutof1,minutof2,minutof3,minutof4,minutof5
+# aca va lo de horario
+#flag=0
+#hora local
+#print(hora2())
+aux=hora1() #inicio recreo
+hora1=int(aux[0])
+minuto1=int(aux[1])
+
+aux=hora2()#final recreo
+horaf1=int(aux[0])
+minutof1=int(aux[1])
+
+aux=hora3()
+hora2=int(aux[0])
+minuto2=int(aux[1])
+
+aux=hora4()
+horaf2=int(aux[0])
+minutof2=int(aux[1])
+
+aux=hora5()
+hora3=int(aux[0])
+minuto3=int(aux[1])
+
+
+
+
+aux=hora6()
+horaf3=int(aux[0])
+minutof3=int(aux[1])
+
+aux=hora7()#final recreo
+hora4=int(aux[0])
+minuto4=int(aux[1])
+
+aux=hora8()
+horaf4=int(aux[0])
+minutof4=int(aux[1])
+
+aux=hora9()
+hora5=int(aux[0])
+minuto5=int(aux[1])
+
+aux=hora10()
+horaf5=int(aux[0])
+minutof5=int(aux[1])
+print("hora 3:")
+print(hora3)
+print("hora f3:")
+print(horaf3)
+while 1:
+	aux=horarios()
+	horap=aux[0]
+	minutop=aux[1]
+	print(f"horap:{horap}")
+	print(f"minutop:{minutop}")
+	print("antes primer if")
+	if((horap>=hora1)&(horap<=horaf1)):#horaf hora final
+
+		if((minutop>=minuto1)&(minutop<=minutof1)):
+			print("primer if")
+			reproduccion()
+			sleep (600)
+			cerrado()
+	else:
+		print("ante segundo if")
+		if(horap>=hora2)&(horap<=horaf2):#horaf hora final
+			if(minutop>=minuto2)&(minutop<=minutof2):#minutof minutof inal
+				print(hora2)
+				print(minuto2)
+				print(minutof2)
+				print("segundo if")
+				reproduccion()
+				sleep(600)
+				cerrado()
+		else:
+			print("ante tercer if")
+			if(horap>=hora3)&(horap<=horaf3):#horaf hora final
+				print("tercer if hora")
+				if(minutop>=minuto3)&(minutop<=minutof3):#minutof minutof inal
+						print("tercer if")
+						reproduccion()
+						sleep(1800)
+						cerrado()
+				else:
+					print("else tercer if")
+			else:
+				print("ante cuarto if")
+				if(horap>=hora4)&(horap<=horaf4):#horaf hora final
+					if(minutop>=minuto4)&(minutop<=minutof4):#minutof minutof inal
+						print("cuarto if")
+						reproduccion()
+						sleep(600)
+						cerrado()
+				else:
+					print("ante quinto if")
+					if(horap>=hora5)&(horap<=horaf5):#horaf hora final
+						if(minutop>=minuto5)&(minutop<=minutof5):#minutof minutof inal
+							print("quinto if")
+							reproduccion()
+							sleep(600)
+							cerrado()
+		sleep(60)
+		print("funciono")
+
+#hora=horap()
+#horap=hora[-11] #-11 da la hora
+#print(horap)
+#busca en spotify el contenido la variable, en este caso soda stereo
+#print(result)
+#spotipy.client.SpotifyException(http_status, code, msg, reason=None, headers=None)
+
+#aca se ejecutaria lo de la libreria reproduccion .py
+#reproduccion()
+#aca iria el cerrado
+
+
+
+
+
+
+
+
+
+
+	if(horap>=hora3)&(horap<=horaf3):#horaf hora final
+		print("tercer if hora")
+		print(f"minuto3:{minuto3}")
+		print(f"minutof3:{minutof3}")#12
+		if(minutop>=minuto3):#minutof minutof inal minuto3=50 minutof3=20
+			print("tercer if")
+			reproduccion()
+			while(minutop>=minuto3)|(minutop<=minutof3):
+				aux=horarios()
+				minutop=aux[1]
+				if(minutop==minutof3):
+					cerrado()
+					break
+					break
